@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/llline_full" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.facebook.shimmer.ShimmerFrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:shimmer_auto_start="true" app:shimmer_duration="1500">
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/ro_sec_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="50dp">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="@dimen/_5sdp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/custom_image" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/_80sdp" android:layout_marginTop="5dp" android:scaleType="fitXY" android:layout_weight="1" android:layout_marginStart="@dimen/_5sdp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+                    <com.google.android.gms.ads.nativead.MediaView android:layout_gravity="center_horizontal" android:id="@+id/ad_media" android:background="#afafaf" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/_80sdp" android:layout_weight="1" android:layout_marginStart="@dimen/_5sdp"/>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.2" android:layout_marginStart="@dimen/_5sdp">
+                        <ImageView android:id="@+id/ad_app_icon" android:visibility="gone" android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="@dimen/_5sdp" android:adjustViewBounds="true"/>
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <TextView android:textSize="@dimen/_8sdp" android:textColor="@color/white" android:id="@+id/ad_text" android:background="@drawable/ads_bg" android:paddingLeft="@dimen/_3sdp" android:paddingTop="@dimen/_1sdp" android:paddingRight="@dimen/_3sdp" android:paddingBottom="@dimen/_1sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ad" android:includeFontPadding="false" android:fontFamily="@font/poppins_semibold"/>
+                                <TextView android:textSize="@dimen/_11sdp" android:textColor="@color/black" android:id="@+id/ad_headline" android:background="#afafaf" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:fontFamily="@font/poppins_semibold" android:layout_marginStart="@dimen/_2sdp"/>
+                            </LinearLayout>
+                            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                                <TextView android:textSize="12sp" android:textColor="@color/black" android:gravity="bottom" android:id="@+id/ad_advertiser" android:background="#afafaf" android:layout_width="match_parent" android:layout_height="match_parent" android:singleLine="true" android:includeFontPadding="false" android:fontFamily="@font/poppins_regular"/>
+                                <RatingBar android:id="@+id/ad_stars" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:stepSize="0.5" android:isIndicator="true" style="?android:attr/ratingBarStyleSmall"/>
+                                <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                                    <TextView android:textSize="12sp" android:textColor="@android:color/black" android:id="@+id/ad_price" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="5dp" android:paddingEnd="5dp"/>
+                                    <TextView android:textSize="12sp" android:textColor="@android:color/black" android:id="@+id/ad_store" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="5dp" android:paddingEnd="5dp"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <TextView android:textSize="@dimen/_10sdp" android:textColor="@color/black" android:ellipsize="end" android:id="@+id/ad_body" android:background="#afafaf" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:fontFamily="@font/poppins_regular"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_5sdp" android:layout_marginTop="5dp" android:layout_marginRight="@dimen/_5sdp" android:layout_marginBottom="5dp" android:layout_marginHorizontal="@dimen/_5sdp">
+                    <TextView android:textSize="@dimen/_13sdp" android:textColor="@color/white" android:gravity="center" android:id="@+id/ad_call_to_action" android:background="@drawable/ads_gradient_bottom_bg" android:paddingTop="@dimen/_10sdp" android:paddingBottom="@dimen/_10sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:fontFamily="@font/poppins_medium" android:backgroundTint="#afafaf" android:paddingVertical="@dimen/_10sdp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/llnative_full" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp"/>
+</LinearLayout>

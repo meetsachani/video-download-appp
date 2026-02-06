@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/main" android:background="@color/app_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <com.hdhub.xdownload.anyvideo.bestdownloader.Utils.NonSwipeableViewPager android:id="@+id/viewPager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_10sdp" android:layout_marginTop="@dimen/_5sdp" android:layout_marginRight="@dimen/_10sdp" android:layout_marginBottom="@dimen/_12sdp" android:layout_marginHorizontal="@dimen/_10sdp">
+                <ImageView android:id="@+id/ic_home" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_10sdp" android:layout_marginRight="@dimen/_10sdp" android:src="@drawable/ic_home_select" android:layout_weight="1" android:layout_marginHorizontal="@dimen/_10sdp"/>
+                <View android:background="#e0e0e0" android:layout_width="2dp" android:layout_height="match_parent" android:layout_marginTop="@dimen/_7sdp" android:layout_marginBottom="@dimen/_7sdp" android:layout_marginVertical="@dimen/_7sdp"/>
+                <ImageView android:id="@+id/ic_player" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_10sdp" android:layout_marginRight="@dimen/_10sdp" android:src="@drawable/ic_player_unselect" android:layout_weight="1" android:layout_marginHorizontal="@dimen/_10sdp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/layout_native_ads_cutom_banner"/>
+    </LinearLayout>
+</RelativeLayout>

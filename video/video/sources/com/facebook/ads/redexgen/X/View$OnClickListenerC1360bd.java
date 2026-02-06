@@ -1,0 +1,45 @@
+package com.facebook.ads.redexgen.X;
+
+import android.view.View;
+import java.util.Arrays;
+import o.C3307Iz;
+import o.C4715Xk;
+
+/* renamed from: com.facebook.ads.redexgen.X.bd  reason: case insensitive filesystem */
+/* loaded from: assets/audience_network/classes2.dex */
+public class View$OnClickListenerC1360bd implements View.OnClickListener {
+    public static byte[] A01;
+    public final /* synthetic */ C6M A00;
+
+    static {
+        A01();
+    }
+
+    public static String A00(int i, int i2, int i3) {
+        byte[] copyOfRange = Arrays.copyOfRange(A01, i, i + i2);
+        for (int i4 = 0; i4 < copyOfRange.length; i4++) {
+            copyOfRange[i4] = (byte) ((copyOfRange[i4] - i3) - 88);
+        }
+        return new String(copyOfRange);
+    }
+
+    public static void A01() {
+        A01 = new byte[]{C4715Xk.i, 48, C3307Iz.c0, C3307Iz.d0, 54};
+    }
+
+    public View$OnClickListenerC1360bd(C6M c6m) {
+        this.A00 = c6m;
+    }
+
+    @Override // android.view.View.OnClickListener
+    public final void onClick(View view) {
+        if (WU.A02(this)) {
+            return;
+        }
+        try {
+            this.A00.getCtaButton().A0E(A00(0, 5, 111));
+        } catch (Throwable th) {
+            WU.A00(th, this);
+        }
+    }
+}

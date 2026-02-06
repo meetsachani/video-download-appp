@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/coming_soon" android:scaleType="centerCrop"/>
+    <LinearLayout android:padding="@dimen/_5sdp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@+id/cancelbtn" android:padding="@dimen/_10sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back"/>
+        <TextView android:textSize="@dimen/_14sdp" android:textColor="@color/black" android:ellipsize="end" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="Coming Soon" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1" android:fontFamily="@font/poppins_medium"/>
+    </LinearLayout>
+</RelativeLayout>

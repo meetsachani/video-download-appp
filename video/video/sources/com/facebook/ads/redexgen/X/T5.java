@@ -1,0 +1,10 @@
+package com.facebook.ads.redexgen.X;
+
+import com.facebook.ads.AdListener;
+
+/* loaded from: assets/audience_network/classes2.dex */
+public interface T5 {
+    com.facebook.ads.Ad A6k();
+
+    AdListener A6o();
+}

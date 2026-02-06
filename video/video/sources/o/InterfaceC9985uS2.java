@@ -1,0 +1,17 @@
+package o;
+
+import java.lang.annotation.Documented;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Target({ElementType.TYPE_USE, ElementType.TYPE_PARAMETER})
+@InterfaceC5389bh2({InterfaceC2868Eo2.class})
+@Documented
+@Retention(RetentionPolicy.RUNTIME)
+/* renamed from: o.uS2  reason: case insensitive filesystem */
+/* loaded from: classes4.dex */
+public @interface InterfaceC9985uS2 {
+    FG1 value() default FG1.one;
+}

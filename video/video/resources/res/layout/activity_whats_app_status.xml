@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/app_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:padding="@dimen/_10sdp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/ic_back" android:padding="@dimen/_5sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back"/>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/_13sdp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_10sdp" android:layout_marginRight="@dimen/_10sdp" android:text="Status Saver" android:includeFontPadding="false" android:layout_centerInParent="true" android:fontFamily="@font/poppins_medium" android:layout_marginHorizontal="@dimen/_10sdp"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/boarder_bg" android:paddingLeft="@dimen/_6sdp" android:paddingTop="@dimen/_5sdp" android:paddingRight="@dimen/_6sdp" android:paddingBottom="@dimen/_5sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_15sdp" android:layout_marginRight="@dimen/_15sdp" android:layout_marginHorizontal="@dimen/_15sdp" android:paddingHorizontal="@dimen/_6sdp" android:paddingVertical="@dimen/_5sdp">
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/linerImage" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginEnd="@dimen/_5sdp">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/image_view" android:background="@drawable/ic_select" android:paddingTop="@dimen/_8sdp" android:paddingBottom="@dimen/_8sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/_8sdp">
+                <ImageView android:id="@+id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/what_image" app:tint="@color/white"/>
+                <TextView android:textSize="@dimen/_10sdp" android:textColor="@color/white" android:layout_gravity="center" android:id="@+id/text_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Images" android:includeFontPadding="false" android:fontFamily="@font/poppins_medium" android:layout_marginStart="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/linerVideo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_5sdp" android:layout_marginRight="@dimen/_5sdp" android:layout_weight="1" android:layout_marginHorizontal="@dimen/_5sdp">
+            <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/video_view" android:background="@drawable/ic_unselect" android:paddingTop="@dimen/_8sdp" android:paddingBottom="@dimen/_8sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/_8sdp">
+                <ImageView android:id="@+id/video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/what_video"/>
+                <TextView android:textSize="@dimen/_10sdp" android:textColor="@color/gray" android:layout_gravity="center" android:id="@+id/text_video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Videos" android:includeFontPadding="false" android:fontFamily="@font/poppins_medium" android:layout_marginStart="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linerSaved" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="@dimen/_5sdp">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/saved_view" android:background="@drawable/ic_unselect" android:paddingTop="@dimen/_8sdp" android:paddingBottom="@dimen/_8sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/_8sdp">
+                <ImageView android:id="@+id/saved" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/what_download"/>
+                <TextView android:textSize="@dimen/_11sdp" android:textColor="@color/gray" android:layout_gravity="center" android:id="@+id/text_saved" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Saved" android:includeFontPadding="false" android:fontFamily="@font/poppins_medium" android:layout_marginStart="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.viewpager.widget.ViewPager android:id="@+id/vpHome" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/_5sdp" android:layout_marginTop="@dimen/_5sdp" android:layout_marginRight="@dimen/_5sdp" android:layout_weight="1" android:layout_marginHorizontal="@dimen/_5sdp"/>
+    <include layout="@layout/layout_native_ads_cutom_banner"/>
+</LinearLayout>

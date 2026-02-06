@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/app_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:padding="@dimen/_10sdp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/ic_back" android:padding="@dimen/_5sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back"/>
+        <TextView android:textSize="@dimen/_14sdp" android:textColor="@color/black" android:layout_gravity="center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Download" android:includeFontPadding="false" android:fontFamily="@font/poppins_semibold" android:layout_marginStart="@dimen/_10sdp"/>
+    </LinearLayout>
+    <androidx.viewpager.widget.ViewPager android:id="@+id/vpHome" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/_5sdp" android:layout_marginTop="@dimen/_5sdp" android:layout_marginRight="@dimen/_5sdp" android:layout_weight="1" android:layout_marginHorizontal="@dimen/_5sdp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/_15sdp" android:layout_marginRight="@dimen/_15sdp" android:layout_weight="1.5" android:layout_marginHorizontal="@dimen/_15sdp">
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="@dimen/_12sdp" android:textColor="@color/black" android:layout_gravity="center" android:id="@+id/skip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Skip" android:includeFontPadding="false" android:fontFamily="@font/poppins_medium"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp">
+            <View android:id="@+id/view_1" android:background="@drawable/bg_button" android:layout_width="@dimen/_6sdp" android:layout_height="@dimen/_6sdp" android:layout_marginLeft="2dp" android:layout_marginRight="2dp" android:backgroundTint="@color/app_color" android:layout_marginHorizontal="2dp"/>
+            <View android:id="@+id/view_2" android:background="@drawable/bg_button" android:layout_width="@dimen/_6sdp" android:layout_height="@dimen/_6sdp" android:layout_marginLeft="2dp" android:layout_marginRight="2dp" android:backgroundTint="@color/gray" android:layout_marginHorizontal="2dp"/>
+            <View android:id="@+id/view_3" android:background="@drawable/bg_button" android:layout_width="@dimen/_6sdp" android:layout_height="@dimen/_6sdp" android:layout_marginLeft="2dp" android:layout_marginRight="2dp" android:backgroundTint="@color/gray" android:layout_marginHorizontal="2dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/layout_native_ads_cutom_banner"/>
+</LinearLayout>

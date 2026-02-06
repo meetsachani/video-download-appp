@@ -1,0 +1,54 @@
+package com.google.android.gms.internal.ads;
+
+import java.io.FilterInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+
+/* loaded from: classes2.dex */
+final class zzgwr extends FilterInputStream {
+    public int X;
+
+    public zzgwr(InputStream inputStream, int i) {
+        super(inputStream);
+        this.X = i;
+    }
+
+    @Override // java.io.FilterInputStream, java.io.InputStream
+    public final int available() throws IOException {
+        return Math.min(super.available(), this.X);
+    }
+
+    @Override // java.io.FilterInputStream, java.io.InputStream
+    public final int read() throws IOException {
+        if (this.X <= 0) {
+            return -1;
+        }
+        int read = super.read();
+        if (read >= 0) {
+            this.X--;
+        }
+        return read;
+    }
+
+    @Override // java.io.FilterInputStream, java.io.InputStream
+    public final long skip(long j) throws IOException {
+        int skip = (int) super.skip(Math.min(j, this.X));
+        if (skip >= 0) {
+            this.X -= skip;
+        }
+        return skip;
+    }
+
+    @Override // java.io.FilterInputStream, java.io.InputStream
+    public final int read(byte[] bArr, int i, int i2) throws IOException {
+        int i3 = this.X;
+        if (i3 <= 0) {
+            return -1;
+        }
+        int read = super.read(bArr, i, Math.min(i2, i3));
+        if (read >= 0) {
+            this.X -= read;
+        }
+        return read;
+    }
+}

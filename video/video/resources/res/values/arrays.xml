@@ -1,0 +1,2192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="characters">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>(</item>
+        <item>)</item>
+        <item>⚆</item>
+        <item>☎</item>
+        <item>☏</item>
+        <item>¢</item>
+        <item>☚</item>
+        <item>☛</item>
+        <item>☜</item>
+        <item>☝</item>
+        <item>☞</item>
+        <item>☟</item>
+        <item>✍</item>
+        <item>✌</item>
+        <item>☢</item>
+        <item>☣</item>
+        <item>♨</item>
+        <item>❀</item>
+        <item>✿</item>
+        <item>ψ</item>
+        <item>♆</item>
+        <item>☪</item>
+        <item>☭</item>
+        <item>♪</item>
+        <item>♩</item>
+        <item>♫</item>
+        <item>♬</item>
+        <item>✄</item>
+        <item>✂</item>
+        <item>✆</item>
+        <item>✉</item>
+        <item>✦</item>
+        <item>✧</item>
+        <item>№</item>
+        <item>℗</item>
+        <item>℘</item>
+        <item>ℙ</item>
+        <item>ℚ</item>
+        <item>ℛ</item>
+        <item>ℜ</item>
+        <item>ℝ</item>
+        <item>℞</item>
+        <item>℟</item>
+        <item>℡</item>
+        <item>™</item>
+        <item>℣</item>
+        <item>ℤ</item>
+        <item>℥</item>
+        <item>Ω</item>
+        <item>℧</item>
+        <item>ℨ</item>
+        <item>℩</item>
+        <item>K</item>
+        <item>Å</item>
+        <item>ℬ</item>
+        <item>ℭ</item>
+        <item>℮</item>
+        <item>ℯ</item>
+        <item>ℰ</item>
+        <item>ℱ</item>
+        <item>Ⅎ</item>
+        <item>ℳ</item>
+        <item>ℴ</item>
+        <item>ℵ</item>
+        <item>ℶ</item>
+        <item>ℷ</item>
+        <item>ℸ</item>
+        <item>ℹ</item>
+        <item>℺</item>
+        <item>℻</item>
+        <item>ℼ</item>
+        <item>ℽ</item>
+        <item>ℾ</item>
+        <item>ℿ</item>
+        <item>⅀</item>
+        <item>⅁</item>
+        <item>⅂</item>
+        <item>⅃</item>
+        <item>⅄</item>
+        <item>ⅅ</item>
+        <item>ⅆ</item>
+        <item>ⅇ</item>
+        <item>ⅈ</item>
+        <item>ⅉ</item>
+        <item>⅊</item>
+        <item>✾</item>
+        <item>✿</item>
+        <item>❀</item>
+        <item>❁</item>
+        <item>❃</item>
+        <item>♚</item>
+        <item>♛</item>
+        <item>♜</item>
+        <item>♝</item>
+        <item>♞</item>
+        <item>♟</item>
+        <item>∞</item>
+        <item>♂</item>
+        <item>♀</item>
+        <item>☿</item>
+        <item>☬</item>
+        <item>☭</item>
+        <item>☹</item>
+        <item>☺</item>
+        <item>☻</item>
+        <item>ت</item>
+        <item>Ü</item>
+        <item>ϡ</item>
+        <item>♋</item>
+        <item>♂</item>
+        <item>♀</item>
+        <item>☿</item>
+        <item>♥</item>
+        <item>❤</item>
+        <item>❥</item>
+        <item>웃</item>
+        <item>유</item>
+        <item>♡</item>
+        <item>۵</item>
+        <item>❣</item>
+        <item>☼</item>
+        <item>☀</item>
+        <item>☁</item>
+        <item>☂</item>
+        <item>☃</item>
+        <item>☄</item>
+        <item>☾</item>
+        <item>☽</item>
+        <item>❄</item>
+        <item>☇</item>
+        <item>☈</item>
+        <item>⊙</item>
+        <item>☉</item>
+        <item>℃</item>
+        <item>℉</item>
+        <item>°</item>
+        <item>♪</item>
+        <item>♫</item>
+        <item>♩</item>
+        <item>♬</item>
+        <item>♭</item>
+        <item>♮</item>
+        <item>♯</item>
+        <item>°</item>
+        <item>ø</item>
+        <item>✽</item>
+        <item>❤</item>
+        <item>❥</item>
+        <item>❦</item>
+        <item>❧</item>
+        <item>™</item>
+        <item>®</item>
+        <item>©</item>
+        <item>✗</item>
+        <item>✘</item>
+        <item>⊗</item>
+        <item>♒</item>
+        <item>▢</item>
+        <item>▲</item>
+        <item>△</item>
+        <item>▼</item>
+        <item>▽</item>
+        <item>◆</item>
+        <item>◇</item>
+        <item>○</item>
+        <item>◎</item>
+        <item>●</item>
+        <item>◯</item>
+        <item>Δ</item>
+        <item>◕</item>
+        <item>◔</item>
+        <item>ʊ</item>
+        <item>ϟ</item>
+        <item>ღ</item>
+        <item>回</item>
+        <item>₪</item>
+        <item>✓</item>
+        <item>✔</item>
+        <item>✕</item>
+        <item>✖</item>
+        <item>☢</item>
+        <item>☣</item>
+        <item>☤</item>
+        <item>☥</item>
+        <item>☦</item>
+        <item>☧</item>
+        <item>☨</item>
+        <item>☩</item>
+        <item>☪</item>
+        <item>☫</item>
+        <item>♋</item>
+        <item>웃</item>
+        <item>유</item>
+        <item>Σ</item>
+        <item>⊗</item>
+        <item>♒</item>
+        <item>☠</item>
+        <item>☮</item>
+        <item>☯</item>
+        <item>♠</item>
+        <item>Ω</item>
+        <item>♤</item>
+        <item>♣</item>
+        <item>♧</item>
+        <item>♥</item>
+        <item>♡</item>
+        <item>♦</item>
+        <item>♕</item>
+        <item>♚</item>
+        <item>♛</item>
+        <item>★</item>
+        <item>☆</item>
+        <item>✮</item>
+        <item>✯</item>
+        <item>☄</item>
+        <item>☾</item>
+        <item>☽</item>
+        <item>☼</item>
+        <item>☀</item>
+        <item>☁</item>
+        <item>☂</item>
+        <item>☃</item>
+        <item>☻</item>
+        <item>☺</item>
+        <item>۞</item>
+        <item>۩</item>
+        <item>♬</item>
+        <item>✄</item>
+        <item>✂</item>
+        <item>✆</item>
+        <item>✉</item>
+        <item>✦</item>
+        <item>✧</item>
+        <item>◕</item>
+        <item>^</item>
+        <item>✖</item>
+        <item>✗</item>
+        <item>✘</item>
+        <item>╱</item>
+        <item>╲</item>
+        <item>╳</item>
+        <item>░</item>
+        <item>▒</item>
+        <item>▓</item>
+        <item>▤</item>
+        <item>▥</item>
+        <item>▦</item>
+        <item>▧</item>
+        <item>▨</item>
+        <item>◠</item>
+        <item>◡</item>
+        <item>▁</item>
+        <item>▂</item>
+        <item>▃</item>
+        <item>▅</item>
+        <item>▆</item>
+        <item>▇</item>
+        <item>❤</item>
+        <item>❥</item>
+        <item>❣</item>
+        <item>❢</item>
+        <item>❡</item>
+        <item>ヅ</item>
+        <item>ツ</item>
+        <item>ッ</item>
+        <item>シ</item>
+        <item>☁</item>
+        <item>☀</item>
+        <item>✆</item>
+        <item>℡</item>
+        <item>©</item>
+        <item>®</item>
+        <item>™</item>
+        <item>✫</item>
+        <item>✪</item>
+        <item>✩</item>
+        <item>✬</item>
+        <item>✮</item>
+        <item>✭</item>
+        <item>✯</item>
+        <item>✰</item>
+        <item>✹</item>
+        <item>✸</item>
+        <item>✷</item>
+        <item>✶</item>
+        <item>✵</item>
+        <item>✳</item>
+        <item>✱</item>
+        <item>❧</item>
+        <item>❦</item>
+        <item>❊</item>
+        <item>❉</item>
+        <item>❈</item>
+        <item>❇</item>
+        <item>❅</item>
+        <item>❄</item>
+        <item>❃</item>
+        <item>❂</item>
+        <item>❁</item>
+        <item>✿</item>
+        <item>✾</item>
+        <item>✽</item>
+        <item>✼</item>
+        <item>✻</item>
+        <item>✛</item>
+        <item>✜</item>
+        <item>✝</item>
+        <item>✞</item>
+        <item>✟</item>
+        <item>✠</item>
+        <item>✖</item>
+        <item>✘</item>
+        <item>♀</item>
+        <item>☆</item>
+        <item>★</item>
+        <item>♭</item>
+        <item>♬</item>
+        <item>♪</item>
+        <item>♩</item>
+        <item>♨</item>
+        <item>♧</item>
+        <item>♦</item>
+        <item>♥</item>
+        <item>♤</item>
+        <item>♣</item>
+        <item>♢</item>
+        <item>♡</item>
+        <item>♟</item>
+        <item>♞</item>
+        <item>♝</item>
+        <item>♜</item>
+        <item>♛</item>
+        <item>♚</item>
+        <item>♙</item>
+        <item>♘</item>
+        <item>♗</item>
+        <item>♖</item>
+        <item>♕</item>
+        <item>♔</item>
+        <item>▲</item>
+        <item>▼</item>
+        <item>✈</item>
+        <item>《</item>
+        <item>》</item>
+        <item>«</item>
+        <item>»</item>
+        <item>『</item>
+        <item>』</item>
+        <item>【</item>
+        <item>】</item>
+        <item>﹂</item>
+        <item>﹃</item>
+        <item>﹄</item>
+        <item>✌</item>
+        <item>✉</item>
+        <item>✈</item>
+        <item>✁</item>
+        <item>✃</item>
+        <item>✂</item>
+        <item>웃</item>
+        <item>℃</item>
+        <item>℉</item>
+        <item>✔</item>
+        <item>◎</item>
+        <item>†</item>
+        <item>‡</item>
+        <item>♭</item>
+        <item>¶</item>
+        <item>»</item>
+        <item>¦</item>
+        <item>Δ</item>
+        <item>Ω</item>
+        <item>½</item>
+        <item>⅓</item>
+        <item>⅔</item>
+        <item>¼</item>
+        <item>№</item>
+        <item>⇨</item>
+        <item>⇒</item>
+        <item>⇔</item>
+        <item>⇚</item>
+        <item>⇶</item>
+        <item>⇵</item>
+        <item>⇴</item>
+        <item>⇳</item>
+        <item>⇰</item>
+        <item>⇯</item>
+        <item>⇮</item>
+        <item>⇭</item>
+        <item>⇬</item>
+        <item>⇫</item>
+        <item>⇩</item>
+        <item>⇨</item>
+        <item>⇧</item>
+        <item>⇦</item>
+        <item>↻</item>
+        <item>↺</item>
+        <item>↰</item>
+        <item>↯</item>
+        <item>↮</item>
+        <item>↭</item>
+        <item>↬</item>
+        <item>↫</item>
+        <item>↪</item>
+        <item>↩</item>
+        <item>↨</item>
+        <item>↧</item>
+        <item>↦</item>
+        <item>↥</item>
+        <item>↤</item>
+        <item>↣</item>
+        <item>↢</item>
+        <item>↡</item>
+        <item>↠</item>
+        <item>↟</item>
+        <item>↞</item>
+        <item>↝</item>
+        <item>↜</item>
+        <item>↛</item>
+        <item>↚</item>
+        <item>↙</item>
+        <item>↘</item>
+        <item>↗</item>
+        <item>↖</item>
+        <item>←</item>
+        <item>↑</item>
+        <item>→</item>
+        <item>↓</item>
+        <item>↔</item>
+        <item>↕</item>
+        <item>↖</item>
+        <item>↗</item>
+        <item>↘</item>
+        <item>↙</item>
+        <item>↤</item>
+        <item>↥</item>
+        <item>↦</item>
+        <item>↧</item>
+        <item>↨</item>
+        <item>↸</item>
+        <item>↹</item>
+        <item>↮</item>
+        <item>⇤</item>
+        <item>⇥</item>
+        <item>⇱</item>
+        <item>⇲</item>
+        <item>⇞</item>
+        <item>⇟</item>
+        <item>↩</item>
+        <item>↪</item>
+        <item>↫</item>
+        <item>↬</item>
+        <item>↭</item>
+        <item>⇝</item>
+        <item>↰</item>
+        <item>↱</item>
+        <item>↲</item>
+        <item>↳</item>
+        <item>↴</item>
+        <item>↵</item>
+        <item>↯</item>
+        <item>↷</item>
+        <item>↺</item>
+        <item>↻</item>
+        <item>⇜</item>
+        <item>↶</item>
+        <item>↼</item>
+        <item>↽</item>
+        <item>↾</item>
+        <item>↿</item>
+        <item>⇀</item>
+        <item>⇁</item>
+        <item>⇂</item>
+        <item>⇃</item>
+        <item>⇄</item>
+        <item>⇅</item>
+        <item>⇆</item>
+        <item>⇇</item>
+        <item>⇈</item>
+        <item>⇉</item>
+        <item>⇊</item>
+        <item>⇍</item>
+        <item>⇎</item>
+        <item>⇏</item>
+        <item>⇐</item>
+        <item>⇑</item>
+        <item>⇒</item>
+        <item>⇓</item>
+        <item>⇔</item>
+        <item>⇕</item>
+        <item>⇖</item>
+        <item>⇗</item>
+        <item>⇘</item>
+        <item>⇙</item>
+        <item>⇦</item>
+        <item>⇧</item>
+        <item>⇪</item>
+        <item>⇫</item>
+        <item>➔</item>
+        <item>➙</item>
+        <item>➘</item>
+        <item>➚</item>
+        <item>➛</item>
+        <item>➜</item>
+        <item>➞</item>
+        <item>➟</item>
+        <item>➠</item>
+        <item>➡</item>
+        <item>➢</item>
+        <item>➣</item>
+        <item>➤</item>
+        <item>➥</item>
+        <item>➦</item>
+        <item>➶</item>
+        <item>➵</item>
+        <item>➳</item>
+        <item>➴</item>
+        <item>➲</item>
+        <item>➱</item>
+        <item>➯</item>
+        <item>➾</item>
+        <item>➽</item>
+        <item>➭</item>
+        <item>➬</item>
+        <item>➼</item>
+        <item>➻</item>
+        <item>➫</item>
+        <item>➪</item>
+        <item>➺</item>
+        <item>➹</item>
+        <item>➩</item>
+        <item>➨</item>
+        <item>➸</item>
+        <item>➷</item>
+        <item>➧</item>
+        <item>∂</item>
+        <item>∆</item>
+        <item>∏</item>
+        <item>∑</item>
+        <item>√</item>
+        <item>∞</item>
+        <item>∟</item>
+        <item>∩</item>
+        <item>∫</item>
+        <item>≈</item>
+        <item>≠</item>
+        <item>≡</item>
+        <item>≤</item>
+        <item>≥</item>
+        <item>÷</item>
+        <item>‰</item>
+        <item>π</item>
+        <item>│</item>
+        <item>┌</item>
+        <item>┐</item>
+        <item>└</item>
+        <item>┘</item>
+        <item>├</item>
+        <item>┤</item>
+        <item>┬</item>
+        <item>┴</item>
+        <item>┼</item>
+        <item>║</item>
+        <item>╒</item>
+        <item>╓</item>
+        <item>╔</item>
+        <item>╕</item>
+        <item>╖</item>
+        <item>╗</item>
+        <item>╘</item>
+        <item>╙</item>
+        <item>╚</item>
+        <item>╛</item>
+        <item>╜</item>
+        <item>╝</item>
+        <item>╞</item>
+        <item>╟</item>
+        <item>╠</item>
+        <item>╡</item>
+        <item>╢</item>
+        <item>╣</item>
+        <item>╤</item>
+        <item>╥</item>
+        <item>╦</item>
+        <item>╧</item>
+        <item>╨</item>
+        <item>╩</item>
+        <item>╪</item>
+        <item>╫</item>
+        <item>╬</item>
+        <item>①</item>
+        <item>②</item>
+        <item>③</item>
+        <item>④</item>
+        <item>⑤</item>
+        <item>⑥</item>
+        <item>⑦</item>
+        <item>⑧</item>
+        <item>⑨</item>
+        <item>⑩</item>
+        <item>⑪</item>
+        <item>⑫</item>
+        <item>⑬</item>
+        <item>⑭</item>
+        <item>⑮</item>
+        <item>⑯</item>
+        <item>⑰</item>
+        <item>⑱</item>
+        <item>⑲</item>
+        <item>⑳</item>
+        <item>㉠</item>
+        <item>㉡</item>
+        <item>㉢</item>
+        <item>㉣</item>
+        <item>㉤</item>
+        <item>㉥</item>
+        <item>㉦</item>
+        <item>㉧</item>
+        <item>㉨</item>
+        <item>㉩</item>
+        <item>㉪</item>
+        <item>㉫</item>
+        <item>㉬</item>
+        <item>㉭</item>
+        <item>㉮</item>
+        <item>㉯</item>
+        <item>㉰</item>
+        <item>㉱</item>
+        <item>㉲</item>
+        <item>㉳</item>
+        <item>㉴</item>
+        <item>㉵</item>
+        <item>㉷</item>
+        <item>㉶</item>
+        <item>㉸</item>
+        <item>㉹</item>
+        <item>㉺</item>
+        <item>㉻</item>
+        <item>ⅰ</item>
+        <item>ⅱ</item>
+        <item>ⅲ</item>
+        <item>ⅳ</item>
+        <item>ⅴ</item>
+        <item>ⅵ</item>
+        <item>ⅶ</item>
+        <item>ⅷ</item>
+        <item>ⅸ</item>
+        <item>ⅹ</item>
+        <item>ⅹ</item>
+        <item>Ⅰ</item>
+        <item>Ⅱ</item>
+        <item>Ⅲ</item>
+        <item>Ⅳ</item>
+        <item>Ⅴ</item>
+        <item>Ⅵ</item>
+        <item>Ⅶ</item>
+        <item>Ⅷ</item>
+        <item>Ⅸ</item>
+        <item>Ⅹ</item>
+        <item>Ⅺ</item>
+        <item>Ⅻ</item>
+        <item>Ώ</item>
+        <item>ΐ</item>
+        <item>Γ</item>
+        <item>Θ</item>
+        <item>Λ</item>
+        <item>Ξ</item>
+        <item>Π</item>
+        <item>Φ</item>
+        <item>Ψ</item>
+        <item>Ϊ</item>
+        <item>Ϋ</item>
+        <item>έ</item>
+        <item>ή</item>
+        <item>ί</item>
+        <item>ΰ</item>
+        <item>α</item>
+        <item>β</item>
+        <item>γ</item>
+        <item>δ</item>
+        <item>ζ</item>
+        <item>η</item>
+        <item>θ</item>
+        <item>ι</item>
+        <item>κ</item>
+        <item>λ</item>
+        <item>μ</item>
+        <item>ξ</item>
+        <item>ρ</item>
+        <item>ς</item>
+        <item>σ</item>
+        <item>τ</item>
+        <item>φ</item>
+        <item>χ</item>
+        <item>ψ</item>
+        <item>ω</item>
+        <item>ϊ</item>
+        <item>£</item>
+        <item>¤</item>
+        <item>¥</item>
+        <item>§</item>
+        <item>Љ</item>
+        <item>Њ</item>
+        <item>Ћ</item>
+        <item>Ќ</item>
+        <item>Ѝ</item>
+        <item>Ў</item>
+        <item>Џ</item>
+        <item>Б</item>
+        <item>Г</item>
+        <item>Д</item>
+        <item>Ж</item>
+        <item>И</item>
+        <item>Й</item>
+        <item>К</item>
+        <item>Л</item>
+        <item>љ</item>
+        <item>њ</item>
+        <item>ѽ</item>
+        <item>Ѽ</item>
+        <item>₡</item>
+        <item>₢</item>
+        <item>₣</item>
+        <item>₤</item>
+        <item>₥</item>
+        <item>₦</item>
+        <item>₧</item>
+        <item>₨</item>
+        <item>₫</item>
+        <item>₭</item>
+        <item>₮</item>
+        <item>₯</item>
+        <item>₰</item>
+        <item>₱</item>
+        <item>₲</item>
+        <item>₳</item>
+        <item>₴</item>
+        <item>₵</item>
+        <item>℅</item>
+        <item>￥</item>
+        <item>￦</item>
+        <item>฿</item>
+        <item>ﾑ</item>
+        <item>乃</item>
+        <item>乇</item>
+        <item>ｷ</item>
+        <item>ん</item>
+        <item>ﾉ</item>
+        <item>ﾌ</item>
+        <item>ズ</item>
+        <item>ﾚ</item>
+        <item>刀</item>
+        <item>ｱ</item>
+        <item>ｲ</item>
+        <item>尺</item>
+        <item>Ц</item>
+        <item>Щ</item>
+        <item>ﾒ</item>
+        <item>ﾘ</item>
+        <item>乙</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </array>
+    <array name="countrycode">
+        <item>Afghanistan (+93)</item>
+        <item>Albania (+355)</item>
+        <item>Algeria (+213)</item>
+        <item>American Samoa (+1)</item>
+        <item>Andorra (+376)</item>
+        <item>Angola (+244)</item>
+        <item>Anguilla (+1)</item>
+        <item>Antarctica (+672)</item>
+        <item>Antigua and Barbuda (+1)</item>
+        <item>Argentina (+54)</item>
+        <item>Armenia (+374)</item>
+        <item>Aruba (+297)</item>
+        <item>Australia (+61)</item>
+        <item>Austria (+43)</item>
+        <item>Azerbaijan (+994)</item>
+        <item>Bahamas (+1)</item>
+        <item>Bahrain (+973)</item>
+        <item>Bangladesh (+880)</item>
+        <item>Barbados (+1)</item>
+        <item>Belarus (+375)</item>
+        <item>Belgium (+32)</item>
+        <item>Belize (+501)</item>
+        <item>Benin (+229)</item>
+        <item>Bermuda (+1)</item>
+        <item>Bhutan (+975)</item>
+        <item>Bolivia (+591)</item>
+        <item>Bosnia and Herzegovina (+387)</item>
+        <item>Botswana (+267)</item>
+        <item>Brazil (+55)</item>
+        <item>British Indian Ocean Territory (+246)</item>
+        <item>British Virgin Islands (+1)</item>
+        <item>Brunei (+673)</item>
+        <item>Bulgaria (+359)</item>
+        <item>Burkina Faso (+226)</item>
+        <item>Burundi (+257)</item>
+        <item>Cambodia (+855)</item>
+        <item>Cameroon (+237)</item>
+        <item>Canada (+1)</item>
+        <item>Cape Verde (+238)</item>
+        <item>Cayman Islands (+1)</item>
+        <item>Central African Republic (+236)</item>
+        <item>Chad (+235)</item>
+        <item>Chile (+56)</item>
+        <item>China (+86)</item>
+        <item>Christmas Island (+61)</item>
+        <item>Cocos Islands (+61)</item>
+        <item>Colombia (+57)</item>
+        <item>Comoros (+269)</item>
+        <item>Cook Islands (+682)</item>
+        <item>Costa Rica (+506)</item>
+        <item>Croatia (+385)</item>
+        <item>Cuba (+53)</item>
+        <item>Curacao (+599)</item>
+        <item>Cyprus (+357)</item>
+        <item>Czech Republic (+420)</item>
+        <item>Democratic Republic of the Congo (+243)</item>
+        <item>Denmark (+45)</item>
+        <item>Djibouti (+253)</item>
+        <item>Dominica (+1)</item>
+        <item>Dominican Republic (+1)</item>
+        <item>East Timor (+670)</item>
+        <item>Ecuador (+593)</item>
+        <item>Egypt (+20)</item>
+        <item>El Salvador (+503)</item>
+        <item>Equatorial Guinea (+)</item>
+        <item>Eritrea (+291)</item>
+        <item>Estonia (+372)</item>
+        <item>Ethiopia (+251)</item>
+        <item>Falkland Islands (+500)</item>
+        <item>Faroe Islands (+298)</item>
+        <item>Fiji (+679)</item>
+        <item>Finland (+358)</item>
+        <item>France (+33)</item>
+        <item>French Polynesia (+689)</item>
+        <item>Gabon (+241)</item>
+        <item>Gambia (+220)</item>
+        <item>Georgia (+995)</item>
+        <item>Germany (+49)</item>
+        <item>Ghana (+233)</item>
+        <item>Gibraltar (+350)</item>
+        <item>Greece (+30)</item>
+        <item>Greenland (+299)</item>
+        <item>Grenada (+1)</item>
+        <item>Guam (+1)</item>
+        <item>Guatemala (+502)</item>
+        <item>Guernsey (+44)</item>
+        <item>Guinea (+224)</item>
+        <item>Guinea-Bissau (+225)</item>
+        <item>Guyana (+592)</item>
+        <item>Haiti (+509)</item>
+        <item>Honduras (+504)</item>
+        <item>Hong Kong (+852)</item>
+        <item>Hungary (+36)</item>
+        <item>Iceland (+354)</item>
+        <item>India (+91)</item>
+        <item>Indonesia (+62)</item>
+        <item>Iran (+98)</item>
+        <item>Iraq (+964)</item>
+        <item>Ireland (+353)</item>
+        <item>Isle of Man (+44)</item>
+        <item>Israel (+972)</item>
+        <item>Italy (+39)</item>
+        <item>Ivory Coast (+225)</item>
+        <item>Jamaica (+1)</item>
+        <item>Japan (+81)</item>
+        <item>Jersey (+44)</item>
+        <item>Jordan (+962)</item>
+        <item>Kazakhstan (+7)</item>
+        <item>Kenya (+254)</item>
+        <item>Kiribati (+686)</item>
+        <item>Kosovo (+383)</item>
+        <item>Kuwait (+965)</item>
+        <item>Kyrgyzstan (+996)</item>
+        <item>Laos (+856)</item>
+        <item>Latvia (+371)</item>
+        <item>Lebanon (+961)</item>
+        <item>Lesotho (+266)</item>
+        <item>Liberia (+231)</item>
+        <item>Libya (+218)</item>
+        <item>Liechtenstein (+423)</item>
+        <item>Lithuania (+370)</item>
+        <item>Luxembourg (+352)</item>
+        <item>Macau (+853)</item>
+        <item>Macedonia (+389)</item>
+        <item>Madagascar (+261)</item>
+        <item>Malawi (+265)</item>
+        <item>Malaysia (+60)</item>
+        <item>Maldives (+960)</item>
+        <item>Mali (+223)</item>
+        <item>Malta (+356)</item>
+        <item>Marshall Islands (+692)</item>
+        <item>Mauritania (+222)</item>
+        <item>Mauritius (+230)</item>
+        <item>Mayotte (+262)</item>
+        <item>Mexico (+52)</item>
+        <item>Micronesia (+691)</item>
+        <item>Moldova (+373)</item>
+        <item>Monaco (+377)</item>
+        <item>Mongolia (+976)</item>
+        <item>Montenegro (+382)</item>
+        <item>Montserrat (+1)</item>
+        <item>Morocco (+212)</item>
+        <item>Mozambique (+258)</item>
+        <item>Myanmar (+95)</item>
+        <item>Namibia (+264)</item>
+        <item>Nauru (+674)</item>
+        <item>Nepal (+977)</item>
+        <item>Netherlands (+31)</item>
+        <item>Netherlands Antilles (+599)</item>
+        <item>New Caledonia (+687)</item>
+        <item>New Zealand (+64)</item>
+        <item>Nicaragua (+505)</item>
+        <item>Niger (+227)</item>
+        <item>Nigeria (+234)</item>
+        <item>Niue (+683)</item>
+        <item>North Korea (+850)</item>
+        <item>Northern Mariana Islands (+1)</item>
+        <item>Norway (+47)</item>
+        <item>Oman (+968)</item>
+        <item>Pakistan (+92)</item>
+        <item>Palau (+680)</item>
+        <item>Palestine (+970)</item>
+        <item>Panama (+507)</item>
+        <item>Papua New Guinea (+675)</item>
+        <item>Paraguay (+595)</item>
+        <item>Peru (+51)</item>
+        <item>Philippines (+63)</item>
+        <item>Pitcairn (+64)</item>
+        <item>Poland (+48)</item>
+        <item>Portugal (+351)</item>
+        <item>Puerto Rico (+1)</item>
+        <item>Qatar (+974)</item>
+        <item>Republic of the Congo (+242)</item>
+        <item>Reunion (+262)</item>
+        <item>Romania (+40)</item>
+        <item>Russia (+7)</item>
+        <item>Rwanda (+250)</item>
+        <item>Saint Barthelemy (+590)</item>
+        <item>Saint Helena (+290)</item>
+        <item>Saint Kitts and Nevis (+1)</item>
+        <item>Saint Lucia (+1)</item>
+        <item>Saint Martin (+590)</item>
+        <item>Saint Pierre and Miquelon (+508)</item>
+        <item>Saint Vincent and the Grenadines (+1)</item>
+        <item>Samoa (+685)</item>
+        <item>San Marino (+378)</item>
+        <item>Sao Tome and Principe (+239)</item>
+        <item>Saudi Arabia (+966)</item>
+        <item>Senegal (+221)</item>
+        <item>Serbia (+381)</item>
+        <item>Seychelles (+248)</item>
+        <item>Sierra Leone (+232)</item>
+        <item>Singapore (+65)</item>
+        <item>Sint Maarten (+1)</item>
+        <item>Slovakia (+421)</item>
+        <item>Slovenia (+386)</item>
+        <item>Solomon Islands (+677)</item>
+        <item>Somalia (+252)</item>
+        <item>South Africa (+27)</item>
+        <item>South Korea (+82)</item>
+        <item>South Sudan (+211)</item>
+        <item>Spain (+34)</item>
+        <item>Sri Lanka (+94)</item>
+        <item>Sudan (+249)</item>
+        <item>Suriname (+597)</item>
+        <item>Svalbard and Jan Mayen (+47)</item>
+        <item>Swaziland (+268)</item>
+        <item>Sweden (+46)</item>
+        <item>Switzerland (+41)</item>
+        <item>Syria (+963)</item>
+        <item>Taiwan (+886)</item>
+        <item>Tajikistan (+992)</item>
+        <item>Tanzania (+255)</item>
+        <item>Thailand (+66)</item>
+        <item>Togo (+228)</item>
+        <item>Tokelau (+690)</item>
+        <item>Tonga (+676)</item>
+        <item>Trinidad and Tobago (+1)</item>
+        <item>Tunisia (+216)</item>
+        <item>Turkey (+90)</item>
+        <item>Turkmenistan (+993)</item>
+        <item>Turks and Caicos Islands (+1)</item>
+        <item>Tuvalu (+688)</item>
+        <item>U.S. Virgin Islands (+1)</item>
+        <item>Uganda (+256)</item>
+        <item>Ukraine (+380)</item>
+        <item>United Arab Emirates (+971)</item>
+        <item>United Kingdom (+44)</item>
+        <item>United States (+1)</item>
+        <item>Uruguay (+598)</item>
+        <item>Uzbekistan (+998)</item>
+        <item>Vanuatu (+678)</item>
+        <item>Vatican (+379)</item>
+        <item>Venezuela (+58)</item>
+        <item>Vietnam (+84)</item>
+        <item>Wallis and Futuna (+681)</item>
+        <item>Western Sahara (+212)</item>
+        <item>Yemen (+967)</item>
+        <item>Zambia (+260)</item>
+        <item>Zimbabwe (+263)</item>
+    </array>
+    <array name="countryname">
+        <item>AF</item>
+        <item>AL</item>
+        <item>DZ</item>
+        <item>AS</item>
+        <item>AD</item>
+        <item>AO</item>
+        <item>AI</item>
+        <item>AQ</item>
+        <item>AG</item>
+        <item>AR</item>
+        <item>AM</item>
+        <item>AW</item>
+        <item>AU</item>
+        <item>AT</item>
+        <item>AZ</item>
+        <item>BS</item>
+        <item>BH</item>
+        <item>BD</item>
+        <item>BB</item>
+        <item>BY</item>
+        <item>BE</item>
+        <item>BZ</item>
+        <item>BJ</item>
+        <item>BM</item>
+        <item>BT</item>
+        <item>BO</item>
+        <item>BA</item>
+        <item>BW</item>
+        <item>BR</item>
+        <item>IO</item>
+        <item>VG</item>
+        <item>BN</item>
+        <item>BG</item>
+        <item>BF</item>
+        <item>BI</item>
+        <item>KH</item>
+        <item>CM</item>
+        <item>CA</item>
+        <item>CV</item>
+        <item>KY</item>
+        <item>CF</item>
+        <item>TD</item>
+        <item>CL</item>
+        <item>CN</item>
+        <item>CX</item>
+        <item>CC</item>
+        <item>CO</item>
+        <item>KM</item>
+        <item>CK</item>
+        <item>CR</item>
+        <item>HR</item>
+        <item>CU</item>
+        <item>CW</item>
+        <item>CY</item>
+        <item>CZ</item>
+        <item>CD</item>
+        <item>DK</item>
+        <item>DJ</item>
+        <item>DM</item>
+        <item>DO</item>
+        <item>TL</item>
+        <item>EC</item>
+        <item>EG</item>
+        <item>SV</item>
+        <item>GQ</item>
+        <item>ER</item>
+        <item>EE</item>
+        <item>ET</item>
+        <item>FK</item>
+        <item>FO</item>
+        <item>FJ</item>
+        <item>FI</item>
+        <item>FR</item>
+        <item>PF</item>
+        <item>GA</item>
+        <item>GM</item>
+        <item>GE</item>
+        <item>DE</item>
+        <item>GH</item>
+        <item>GI</item>
+        <item>GR</item>
+        <item>GL</item>
+        <item>GD</item>
+        <item>GU</item>
+        <item>GT</item>
+        <item>GG</item>
+        <item>GN</item>
+        <item>GW</item>
+        <item>GY</item>
+        <item>HT</item>
+        <item>HN</item>
+        <item>HK</item>
+        <item>HU</item>
+        <item>IS</item>
+        <item>IN</item>
+        <item>ID</item>
+        <item>IR</item>
+        <item>IQ</item>
+        <item>IE</item>
+        <item>IM</item>
+        <item>IL</item>
+        <item>IT</item>
+        <item>CI</item>
+        <item>JM</item>
+        <item>JP</item>
+        <item>JE</item>
+        <item>JO</item>
+        <item>KZ</item>
+        <item>KE</item>
+        <item>KI</item>
+        <item>XK</item>
+        <item>KW</item>
+        <item>KG</item>
+        <item>LA</item>
+        <item>LV</item>
+        <item>LB</item>
+        <item>LS</item>
+        <item>LR</item>
+        <item>LY</item>
+        <item>LI</item>
+        <item>LT</item>
+        <item>LU</item>
+        <item>MO</item>
+        <item>MK</item>
+        <item>MG</item>
+        <item>MW</item>
+        <item>MY</item>
+        <item>MV</item>
+        <item>ML</item>
+        <item>MT</item>
+        <item>MH</item>
+        <item>MR</item>
+        <item>MU</item>
+        <item>YT</item>
+        <item>MX</item>
+        <item>FM</item>
+        <item>MD</item>
+        <item>MC</item>
+        <item>MN</item>
+        <item>ME</item>
+        <item>MS</item>
+        <item>MA</item>
+        <item>MZ</item>
+        <item>MM</item>
+        <item>NA</item>
+        <item>NR</item>
+        <item>NP</item>
+        <item>NL</item>
+        <item>AN</item>
+        <item>NC</item>
+        <item>NZ</item>
+        <item>NI</item>
+        <item>NE</item>
+        <item>NG</item>
+        <item>NU</item>
+        <item>KP</item>
+        <item>MP</item>
+        <item>NO</item>
+        <item>OM</item>
+        <item>PK</item>
+        <item>PW</item>
+        <item>PS</item>
+        <item>PA</item>
+        <item>PG</item>
+        <item>PY</item>
+        <item>PE</item>
+        <item>PH</item>
+        <item>PN</item>
+        <item>PL</item>
+        <item>PT</item>
+        <item>PR</item>
+        <item>QA</item>
+        <item>CG</item>
+        <item>RE</item>
+        <item>RO</item>
+        <item>RU</item>
+        <item>RW</item>
+        <item>BL</item>
+        <item>SH</item>
+        <item>KN</item>
+        <item>LC</item>
+        <item>MF</item>
+        <item>PM</item>
+        <item>VC</item>
+        <item>WS</item>
+        <item>SM</item>
+        <item>ST</item>
+        <item>SA</item>
+        <item>SN</item>
+        <item>RS</item>
+        <item>SC</item>
+        <item>SL</item>
+        <item>SG</item>
+        <item>SX</item>
+        <item>SK</item>
+        <item>SI</item>
+        <item>SB</item>
+        <item>SO</item>
+        <item>ZA</item>
+        <item>KR</item>
+        <item>SS</item>
+        <item>ES</item>
+        <item>LK</item>
+        <item>SD</item>
+        <item>SR</item>
+        <item>SJ</item>
+        <item>SZ</item>
+        <item>SE</item>
+        <item>CH</item>
+        <item>SY</item>
+        <item>TW</item>
+        <item>TJ</item>
+        <item>TZ</item>
+        <item>TH</item>
+        <item>TG</item>
+        <item>TK</item>
+        <item>TO</item>
+        <item>TT</item>
+        <item>TN</item>
+        <item>TR</item>
+        <item>TM</item>
+        <item>TC</item>
+        <item>TV</item>
+        <item>VI</item>
+        <item>UG</item>
+        <item>UA</item>
+        <item>AE</item>
+        <item>GB</item>
+        <item>US</item>
+        <item>UY</item>
+        <item>UZ</item>
+        <item>VU</item>
+        <item>VA</item>
+        <item>VE</item>
+        <item>VN</item>
+        <item>WF</item>
+        <item>EH</item>
+        <item>YE</item>
+        <item>ZM</item>
+        <item>ZW</item>
+    </array>
+    <array name="emoji_activity">
+        <item>��️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>��</item>
+        <item>⛷️</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>��️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>⚽</item>
+        <item>⚾</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>⛳</item>
+        <item>⛸️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+    </array>
+    <array name="emoji_animals">
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��‍��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��‍⬛</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+    </array>
+    <array name="emoji_flag">
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+        <item>����</item>
+    </array>
+    <array name="emoji_food">
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>☕</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+    </array>
+    <array name="emoji_object">
+        <item>☠️</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>��️</item>
+        <item>⌛</item>
+        <item>⏳</item>
+        <item>⌚</item>
+        <item>⏰</item>
+        <item>⏱️</item>
+        <item>⏲️</item>
+        <item>��️</item>
+        <item>��️</item>
+        <item>⛱️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>☎️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>��️</item>
+        <item>⌨️</item>
+        <item>��️</item>
+        <item>��️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>✉️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+    </array>
+    <array name="emoji_people">
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>☹️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>☠️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>❤️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>��‍��️</item>
+        <item>��‍��</item>
+        <item>��️‍��️</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>��</item>
+    </array>
+    <array name="emoji_travel">
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>⛰️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>��️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>��️</item>
+        <item>��️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>⛪</item>
+        <item>��</item>
+        <item>��</item>
+        <item>⛩️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>♨️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>��️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>��️</item>
+        <item>⛽</item>
+        <item>⚓</item>
+        <item>⛵</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>��️</item>
+        <item>⛴️</item>
+        <item>��</item>
+        <item>✈️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��️</item>
+    </array>
+    <array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </array>
+    <array name="lang_array">
+        <item>English</item>
+        <item>हिन्दी</item>
+        <item>Indonesian</item>
+        <item>عربى</item>
+        <item>தமிழ்</item>
+        <item>తెలుగు</item>
+        <item>മലയാളം</item>
+        <item>ಕನ್ನಡ</item>
+        <item>ਪੰਜਾਬੀ</item>
+        <item>मराठी</item>
+        <item>ગુજરાતી</item>
+        <item>española</item>
+        <item>Português</item>
+        <item>français</item>
+        <item>русский</item>
+        <item>Azərbaycan</item>
+        <item>Deutsche</item>
+        <item>Kiswahili</item>
+    </array>
+    <array name="lang_code_array">
+        <item>en</item>
+        <item>hi</item>
+        <item>id</item>
+        <item>ar</item>
+        <item>ta</item>
+        <item>te</item>
+        <item>ml</item>
+        <item>kn</item>
+        <item>pa</item>
+        <item>mr</item>
+        <item>gu</item>
+        <item>es</item>
+        <item>pt</item>
+        <item>fr</item>
+        <item>ru</item>
+        <item>az</item>
+        <item>nl</item>
+        <item>sw</item>
+    </array>
+    <array name="preloaded_fonts">
+        <item>@font/poppins_regular</item>
+        <item>@font/poppins_medium</item>
+        <item>@font/poppins_semibold</item>
+    </array>
+    <array name="symbols">
+        <item>❤️‍��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>❣️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>❣️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>❤️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��️‍��️</item>
+        <item>��️</item>
+        <item>��️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>⚠️</item>
+        <item>��</item>
+        <item>⛔</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>��</item>
+        <item>☢️</item>
+        <item>☣️</item>
+        <item>⬆️</item>
+        <item>↗️</item>
+        <item>➡️</item>
+        <item>↘️</item>
+        <item>⬇️</item>
+        <item>↙️</item>
+        <item>⬅️</item>
+        <item>↖️</item>
+        <item>↕️</item>
+        <item>↔️</item>
+        <item>↩️</item>
+        <item>↪️</item>
+        <item>⤴️</item>
+        <item>⤵️</item>
+        <item>☦️</item>
+        <item>☪️</item>
+        <item>✝️</item>
+        <item>☮️</item>
+        <item>☯️</item>
+        <item>��️</item>
+        <item>✡️</item>
+        <item>☸️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>♈</item>
+        <item>♉</item>
+        <item>♊</item>
+        <item>♋</item>
+        <item>♌</item>
+        <item>♍</item>
+        <item>♎</item>
+        <item>♏</item>
+        <item>♐</item>
+        <item>♑</item>
+        <item>♒</item>
+        <item>♓</item>
+        <item>⛎</item>
+        <item>➕</item>
+        <item>➖</item>
+        <item>➗</item>
+        <item>✖️</item>
+        <item>✔️</item>
+        <item>✅</item>
+        <item>❌</item>
+        <item>❎</item>
+        <item>❓</item>
+        <item>❔</item>
+        <item>❕</item>
+        <item>❗</item>
+        <item>©️</item>
+        <item>®️</item>
+        <item>™️</item>
+        <item>ℹ️</item>
+        <item>��</item>
+        <item>��</item>
+        <item>♿</item>
+        <item>♠️</item>
+        <item>♥️</item>
+        <item>♦️</item>
+        <item>♣️</item>
+    </array>
+</resources>

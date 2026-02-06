@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/_13sdp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_12sdp" android:layout_marginBottom="@dimen/_8sdp" android:text="Video Player" android:includeFontPadding="false" android:fontFamily="@font/poppins_semibold"/>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@+id/rvVideoList" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/_8sdp" android:layout_marginRight="@dimen/_8sdp" android:layout_marginBottom="@dimen/_5sdp" android:layout_weight="1" android:layout_marginHorizontal="@dimen/_8sdp" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:spanCount="2"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/liner_no_data" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/not_data"/>
+        <TextView android:textSize="@dimen/_15sdp" android:textColor="@color/black" android:gravity="center" android:id="@+id/tvResp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/no_download_founds" android:includeFontPadding="false" android:fontFamily="@font/poppins_medium"/>
+    </LinearLayout>
+</LinearLayout>

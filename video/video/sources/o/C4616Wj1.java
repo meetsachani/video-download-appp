@@ -1,0 +1,18 @@
+package o;
+
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+
+/* renamed from: o.Wj1  reason: case insensitive filesystem */
+/* loaded from: classes.dex */
+public class C4616Wj1 {
+    public static final int a = 0;
+    public static final int b = 1;
+    public static final int c = 2;
+
+    @Retention(RetentionPolicy.SOURCE)
+    /* renamed from: o.Wj1$a */
+    /* loaded from: classes.dex */
+    public @interface a {
+    }
+}

@@ -1,0 +1,8 @@
+package com.google.android.gms.internal.ads;
+
+/* loaded from: classes2.dex */
+public final class zzakh extends zzhn {
+    public zzakh(String str) {
+        super(str);
+    }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/folder_bg" android:padding="@dimen/_8sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp">
+    <androidx.cardview.widget.CardView android:id="@+id/thumbnail_card" android:layout_width="match_parent" android:layout_height="100dp" app:cardCornerRadius="@dimen/_9sdp" app:cardElevation="0dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <ImageView android:id="@+id/imgThumbnail" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/ic_play" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/play__3__11"/>
+        <TextView android:textSize="@dimen/_7sdp" android:textColor="@color/black" android:layout_gravity="end|bottom" android:id="@+id/tv_file_duration" android:background="@drawable/ads_bg" android:paddingLeft="@dimen/_4sdp" android:paddingTop="@dimen/_2sdp" android:paddingRight="@dimen/_4sdp" android:paddingBottom="@dimen/_2sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_7sdp" android:layout_marginTop="4dp" android:text="00:00" android:includeFontPadding="false" android:fontFamily="@font/poppins_medium" android:backgroundTint="@color/white" android:paddingHorizontal="@dimen/_4sdp" android:paddingVertical="@dimen/_2sdp"/>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/_5sdp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="@dimen/_11sdp" android:textColor="@color/text_color" android:ellipsize="marquee" android:id="@+id/ic_file_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="file_facebook33434.mp4" android:maxLines="1" android:includeFontPadding="false" android:fontFamily="@font/poppins_semibold"/>
+            <TextView android:textSize="@dimen/_9sdp" android:textColor="@color/text_color_gray" android:id="@+id/tv_file_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_3sdp" android:text="4.5Mb" android:includeFontPadding="false" android:fontFamily="@font/poppins_medium"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center" android:id="@+id/ic_vert_menu" android:padding="@dimen/_5sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/menu_dots_10"/>
+    </LinearLayout>
+</LinearLayout>

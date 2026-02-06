@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/main" android:background="@drawable/splash_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/splash_logo"/>
+        <TextView android:textSize="@dimen/_15sdp" android:textColor="@color/black" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="VIDEO" android:includeFontPadding="false" android:fontFamily="@font/poppins_semibold"/>
+        <TextView android:textSize="@dimen/_10sdp" android:textColor="@color/black" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="DOWNLOADER" android:includeFontPadding="false" android:fontFamily="@font/poppins_regular"/>
+        <TextView android:textSize="@dimen/_10sdp" android:textColor="@color/black" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_3sdp" android:text="Fast &amp; Secure Video Downloader" android:includeFontPadding="false" android:fontFamily="@font/poppins_regular"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <com.airbnb.lottie.LottieAnimationView android:id="@+id/img_anim_loading" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="15dp" android:tint="@color/white" app:lottie_autoPlay="true" app:lottie_colorFilter="@color/white" app:lottie_loop="true" app:lottie_rawRes="@raw/loading"/>
+        <TextView android:textSize="11dp" android:textColor="@color/white" android:id="@+id/tvContainAds" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="This action may contains Ads" android:includeFontPadding="false" android:fontFamily="@font/poppins_medium"/>
+    </LinearLayout>
+</RelativeLayout>

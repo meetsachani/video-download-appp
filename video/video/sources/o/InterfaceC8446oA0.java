@@ -1,0 +1,16 @@
+package o;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Target({ElementType.TYPE})
+@Retention(RetentionPolicy.CLASS)
+/* renamed from: o.oA0  reason: case insensitive filesystem */
+/* loaded from: classes.dex */
+public @interface InterfaceC8446oA0 {
+    String tokenizer() default "simple";
+
+    String[] tokenizerArgs() default {};
+}

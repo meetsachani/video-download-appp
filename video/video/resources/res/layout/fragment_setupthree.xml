@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0.5">
+            <ImageView android:id="@+id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_15sdp" android:layout_marginTop="@dimen/_30sdp" android:layout_marginRight="@dimen/_15sdp" android:src="@drawable/setup_3" android:adjustViewBounds="true" android:layout_marginHorizontal="@dimen/_15sdp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="@dimen/_16sdp" android:textColor="@color/app_color" android:gravity="center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Streamlined Video Downloads" android:includeFontPadding="false" android:fontFamily="@font/poppins_semibold"/>
+            <TextView android:textSize="@dimen/_10sdp" android:textColor="@color/gray" android:gravity="center" android:id="@+id/decelerate" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_35sdp" android:layout_marginTop="@dimen/_6sdp" android:layout_marginRight="@dimen/_35sdp" android:text="Open a video downloader app, website, or browser extension and paste the link." android:includeFontPadding="false" android:fontFamily="@font/poppins_regular" android:layout_marginHorizontal="@dimen/_35sdp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

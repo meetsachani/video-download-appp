@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@drawable/video_list_bg" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp">
+    <FrameLayout android:layout_width="100dp" android:layout_height="80dp" android:layout_marginEnd="8dp">
+        <ImageView android:id="@+id/thumbnail" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/play_icon" android:layout_width="36dp" android:layout_height="36dp" android:src="@drawable/ic_watch_play"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <TextView android:textSize="14sp" android:textColor="#000000" android:ellipsize="end" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Et harum quidem rerum facilis est et expedita distinctio..." android:maxLines="3"/>
+        <TextView android:textSize="12sp" android:textColor="#777" android:id="@+id/duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="29 sec."/>
+    </LinearLayout>
+</LinearLayout>

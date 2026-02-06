@@ -1,0 +1,34 @@
+package o;
+
+/* loaded from: classes3.dex */
+public final class BW1 extends TT1 {
+    @Override // o.TT1
+    /* renamed from: q */
+    public C10009ua0 k(QT1 qt1) {
+        String str;
+        String str2;
+        String c = TT1.c(qt1);
+        if (!c.startsWith("smtp:") && !c.startsWith("SMTP:")) {
+            return null;
+        }
+        String substring = c.substring(5);
+        int indexOf = substring.indexOf(58);
+        if (indexOf >= 0) {
+            String substring2 = substring.substring(indexOf + 1);
+            substring = substring.substring(0, indexOf);
+            int indexOf2 = substring2.indexOf(58);
+            if (indexOf2 >= 0) {
+                String substring3 = substring2.substring(indexOf2 + 1);
+                str = substring2.substring(0, indexOf2);
+                str2 = substring3;
+            } else {
+                str2 = null;
+                str = substring2;
+            }
+        } else {
+            str = null;
+            str2 = null;
+        }
+        return new C10009ua0(new String[]{substring}, null, null, str, str2);
+    }
+}

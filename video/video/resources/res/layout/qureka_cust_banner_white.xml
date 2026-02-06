@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="bottom" android:id="@+id/native_bg" android:background="@drawable/ro_sec_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="50dp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/iv_banner_icon" android:layout_width="@dimen/_44sdp" android:layout_height="@dimen/_44sdp" android:src="@drawable/ad_logo" android:adjustViewBounds="true"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_5sdp" android:layout_marginRight="@dimen/_5sdp" android:layout_weight="1" android:layout_marginHorizontal="@dimen/_5sdp">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/_8sdp" android:textColor="@color/white" android:layout_gravity="center" android:id="@+id/ad_text" android:background="@drawable/ad_bg" android:paddingLeft="@dimen/_3sdp" android:paddingTop="2dp" android:paddingRight="@dimen/_3sdp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ad" android:includeFontPadding="false" android:fontFamily="@font/poppins_semibold" android:paddingVertical="2dp"/>
+                        <TextView android:textSize="@dimen/_11sdp" android:textColor="@color/black" android:id="@+id/tv_banner_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Play Fruit Chop Game" android:singleLine="true" android:includeFontPadding="false" android:fontFamily="@font/poppins_semibold" android:layout_marginStart="5dp"/>
+                    </LinearLayout>
+                    <TextView android:textSize="@dimen/_9sdp" android:textColor="@color/black" android:id="@+id/tv_banner_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Win 50,000 Coins No Install Required" android:singleLine="true" android:includeFontPadding="false" android:fontFamily="@font/poppins_regular"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/_11sdp" android:textColor="@color/white" android:gravity="center" android:id="@+id/ad_call_to_action" android:background="@drawable/bg_button" android:paddingLeft="@dimen/_10sdp" android:paddingTop="@dimen/_8sdp" android:paddingRight="@dimen/_10sdp" android:paddingBottom="@dimen/_8sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Install Now" android:includeFontPadding="false" android:textAllCaps="true" android:fontFamily="@font/poppins_semibold" android:paddingHorizontal="@dimen/_10sdp" android:paddingVertical="@dimen/_8sdp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

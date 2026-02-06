@@ -1,0 +1,21 @@
+package com.google.android.gms.internal.ads;
+
+import com.google.android.gms.common.util.Clock;
+
+/* loaded from: classes2.dex */
+public final class zzbxz implements zzhfv {
+    public final zzhge a;
+    public final zzhge b;
+    public final zzhge c;
+
+    public zzbxz(zzhge zzhgeVar, zzhge zzhgeVar2, zzhge zzhgeVar3) {
+        this.a = zzhgeVar;
+        this.b = zzhgeVar2;
+        this.c = zzhgeVar3;
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzhgk, com.google.android.gms.internal.ads.zzhgj
+    public final /* bridge */ /* synthetic */ Object b() {
+        return new zzbxy((Clock) this.a.b(), (com.google.android.gms.ads.internal.util.zzg) this.b.b(), (zzbyj) this.c.b());
+    }
+}

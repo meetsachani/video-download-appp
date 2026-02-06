@@ -1,0 +1,12 @@
+package com.google.android.gms.internal.ads;
+
+/* loaded from: classes2.dex */
+public final class zzgea extends RuntimeException {
+    @Deprecated
+    public zzgea() {
+    }
+
+    public zzgea(Throwable th) {
+        super(th);
+    }
+}

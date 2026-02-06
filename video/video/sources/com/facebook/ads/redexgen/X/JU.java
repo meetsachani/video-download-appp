@@ -1,0 +1,21 @@
+package com.facebook.ads.redexgen.X;
+
+/* loaded from: assets/audience_network/classes2.dex */
+public class JU implements InterfaceC1456dB {
+    public final /* synthetic */ AnonymousClass66 A00;
+
+    public JU(AnonymousClass66 anonymousClass66) {
+        this.A00 = anonymousClass66;
+    }
+
+    @Override // com.facebook.ads.redexgen.X.InterfaceC1456dB
+    public final void AFU() {
+        C1035Re c1035Re;
+        C1035Re c1035Re2;
+        c1035Re = this.A00.A00;
+        if (c1035Re != null) {
+            c1035Re2 = this.A00.A00;
+            c1035Re2.finish(13);
+        }
+    }
+}

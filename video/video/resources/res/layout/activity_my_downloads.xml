@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/app_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <RelativeLayout android:id="@+id/actionBarconst" android:padding="@dimen/_5sdp" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0">
+            <ImageView android:id="@+id/ivBack" android:padding="@dimen/_8sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back"/>
+            <TextView android:textSize="@dimen/_13sdp" android:textColor="@color/text_color" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Downloaded Videos" android:includeFontPadding="false" android:layout_centerVertical="true" android:fontFamily="@font/poppins_medium"/>
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_progress" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="@+id/actionBarconst"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/pb_downloads" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_15sdp" android:layout_marginRight="@dimen/_15sdp" android:indeterminateTint="@color/app_color" android:layout_marginHorizontal="@dimen/_15sdp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/no_data" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/not_data"/>
+            <TextView android:textSize="@dimen/_15sdp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_10sdp" android:text="@string/no_download_founds" android:includeFontPadding="false" android:fontFamily="@font/poppins_medium"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include layout="@layout/layout_native_ads_cutom_banner"/>
+</LinearLayout>

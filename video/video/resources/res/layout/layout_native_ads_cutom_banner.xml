@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/llline" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/_60sdp">
+        <com.facebook.shimmer.ShimmerFrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:shimmer_auto_start="true" app:shimmer_duration="1500">
+            <LinearLayout android:background="@drawable/ro_sec_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/_3sdp" android:paddingRight="@dimen/_3sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_2sdp" android:paddingHorizontal="@dimen/_3sdp">
+                    <TextView android:textSize="@dimen/_8sdp" android:textColor="@color/white" android:background="@drawable/ads_bg" android:paddingLeft="@dimen/_4sdp" android:paddingTop="@dimen/_1sdp" android:paddingRight="@dimen/_4sdp" android:paddingBottom="@dimen/_1sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ad" android:includeFontPadding="false" android:fontFamily="@font/poppins_medium" android:paddingHorizontal="@dimen/_4sdp" android:paddingVertical="@dimen/_1sdp"/>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/_2sdp" android:layout_weight="1">
+                            <androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardCornerRadius="@dimen/_3sdp">
+                                <View android:background="#afafaf" android:paddingTop="@dimen/_3sdp" android:paddingBottom="@dimen/_3sdp" android:layout_width="@dimen/_40sdp" android:layout_height="match_parent" android:paddingVertical="@dimen/_3sdp"/>
+                            </androidx.cardview.widget.CardView>
+                            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/_10sdp">
+                                <androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_3sdp" android:layout_marginRight="@dimen/_140sdp" app:cardCornerRadius="@dimen/_2sdp">
+                                    <View android:background="#afafaf" android:layout_width="match_parent" android:layout_height="@dimen/_10sdp"/>
+                                </androidx.cardview.widget.CardView>
+                                <androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_3sdp" android:layout_marginRight="@dimen/_50sdp" app:cardCornerRadius="@dimen/_2sdp">
+                                    <View android:background="#afafaf" android:layout_width="match_parent" android:layout_height="@dimen/_10sdp"/>
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <TextView android:textSize="@dimen/_14sdp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:id="@+id/ad_call_to_action" android:background="@drawable/ads_gradient_bottom_bg" android:padding="@dimen/_8sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:layout_marginBottom="@dimen/_5sdp" android:backgroundTint="#afafaf"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/llnative" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:layout_alignParentBottom="true"/>
+</LinearLayout>

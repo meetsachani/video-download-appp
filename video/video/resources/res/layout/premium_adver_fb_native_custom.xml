@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/native_bg" android:background="@drawable/fb_button_color" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:backgroundTint="@color/white">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@+id/ad_choices_container" android:layout_width="match_parent" android:layout_height="20dp"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="@dimen/_5sdp" android:paddingRight="@dimen/_5sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/_5sdp">
+        <com.facebook.ads.MediaView android:gravity="center" android:id="@+id/native_ad_media" android:layout_width="@dimen/_70sdp" android:layout_height="@dimen/_50sdp"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_5sdp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.facebook.ads.MediaView android:id="@+id/native_ad_icon" android:padding="5dp" android:layout_width="40dp" android:layout_height="40dp"/>
+                <LinearLayout android:orientation="vertical" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="15sp" android:textColor="@android:color/black" android:ellipsize="end" android:id="@+id/native_ad_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1"/>
+                    <TextView android:textSize="12sp" android:textColor="@android:color/darker_gray" android:ellipsize="end" android:id="@+id/native_ad_sponsored_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="12sp" android:textColor="@android:color/darker_gray" android:ellipsize="end" android:id="@+id/native_ad_social_context" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="1" android:singleLine="true"/>
+            <TextView android:textSize="12sp" android:textColor="@android:color/black" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/native_ad_body" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="1" android:singleLine="true"/>
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.cardview.widget.CardView android:layout_gravity="center" android:padding="@dimen/_5sdp" android:layout_width="match_parent" android:layout_height="40dp" android:layout_margin="@dimen/_5sdp" app:cardBackgroundColor="#4286f4" app:cardCornerRadius="@dimen/_10sdp">
+        <TextView android:textSize="16sp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@+id/native_ad_call_to_action" android:background="#4286f4" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

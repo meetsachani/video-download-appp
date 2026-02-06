@@ -1,0 +1,18 @@
+package com.google.android.gms.internal.consent_sdk;
+
+/* loaded from: classes3.dex */
+public final class zzdq {
+    public static Object a(Object obj) {
+        if (obj != null) {
+            return obj;
+        }
+        throw new NullPointerException("Cannot return null from a non-@Nullable @Provides method");
+    }
+
+    public static void b(Object obj, Class cls) {
+        if (obj != null) {
+            return;
+        }
+        throw new IllegalStateException(String.valueOf(cls.getCanonicalName()).concat(" must be set"));
+    }
+}

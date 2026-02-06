@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/ic_start" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/_2sdp" android:paddingBottom="@dimen/_2sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/_2sdp">
+            <ImageView android:layout_gravity="center" android:id="@+id/icon" android:layout_width="@dimen/_40sdp" android:layout_height="@dimen/_40sdp" android:src="@mipmap/ic_launcher_round"/>
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_8sdp">
+                <TextView android:textSize="15sp" android:id="@+id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BamBam: Live Video-Chat &amp; Call" android:includeFontPadding="false" android:fontFamily="@font/poppins_semibold" style="@style/TextAppearance.Compat.Notification.Title"/>
+                <TextView android:textSize="12sp" android:id="@+id/description" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="live video random chat app and have a blast with the superlive friends video-chat privilege" android:includeFontPadding="false" android:layout_below="@+id/app_name" android:fontFamily="@font/poppins_medium" style="@style/TextAppearance.Compat.Notification.Title"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp">
+            <ImageView android:id="@+id/banner" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/ad_banner" android:adjustViewBounds="true"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

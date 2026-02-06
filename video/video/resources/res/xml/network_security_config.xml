@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">139.59.83.165 
+        </domain>
+        <domain includeSubdomains="true">209.38.122.53 
+        </domain>
+        <domain includeSubdomains="true">leo1m.com 
+        </domain>
+        <domain includeSubdomains="true">66.135.8.160 
+        </domain>
+        <domain includeSubdomains="true">ip-api.com 
+        </domain>
+    </domain-config>
+</network-security-config>

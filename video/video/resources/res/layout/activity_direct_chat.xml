@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/main" android:background="@color/app_bg" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:padding="@dimen/_5sdp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/ic_back" android:padding="@dimen/_8sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back"/>
+        <TextView android:textSize="@dimen/_13sdp" android:textColor="@color/black" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Direct Chat" android:includeFontPadding="false" android:layout_centerVertical="true" android:fontFamily="@font/poppins_medium"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_15sdp" android:layout_marginTop="@dimen/_5sdp" android:layout_marginRight="@dimen/_15sdp">
+            <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@+id/mLlCountryCode" android:background="@drawable/bg_gray_fill_with_border_thick_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_8sdp">
+                    <Spinner android:id="@+id/mSpCountryCode" android:layout_width="wrap_content" android:layout_height="@dimen/_38sdp"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/mLlCountryCode">
+                    <EditText android:textSize="@dimen/_11sdp" android:textColor="@color/black" android:textColorHint="@color/gray" android:layout_gravity="center" android:id="@+id/mEtMobileNumber" android:background="@drawable/bg_gray_fill_with_border_thick_6" android:padding="@dimen/_12sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/entr_num" android:includeFontPadding="false" android:layout_weight="1" android:inputType="number" android:fontFamily="@font/poppins_regular" android:layout_toStartOf="@+id/mImgWChat"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+        <include layout="@layout/layout_shimmer_native_ads_full"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:layout_marginStart="@dimen/_15sdp" android:layout_marginEnd="@dimen/_15sdp">
+            <LinearLayout android:gravity="center" android:id="@+id/mImgWChat" android:background="@drawable/rounded_app_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginEnd="@dimen/_5sdp">
+                <TextView android:textSize="@dimen/_11sdp" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/_38sdp" android:text="WhatsApp" android:includeFontPadding="false" android:drawablePadding="@dimen/_10sdp" android:fontFamily="@font/poppins_medium" app:drawableStartCompat="@drawable/ic_whtap"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:id="@+id/mImgWbChat" android:background="@drawable/rounded_app_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="@dimen/_5sdp">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_whtap_b_chat"/>
+                <TextView android:textSize="@dimen/_11sdp" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/_38sdp" android:text="WB WhatsApp" android:includeFontPadding="false" android:fontFamily="@font/poppins_medium" android:layout_marginStart="@dimen/_10sdp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_corners_background" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_15sdp" android:layout_marginTop="@dimen/_15sdp" android:layout_marginRight="@dimen/_15sdp">
+            <TextView android:textSize="@dimen/_13sdp" android:textColor="@color/black" android:layout_gravity="center" android:id="@+id/tvGuideTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_10sdp" android:text="@string/how_to_use" android:includeFontPadding="false" android:fontFamily="@font/poppins_semibold"/>
+            <TextView android:textSize="@dimen/_11sdp" android:textColor="@color/black" android:id="@+id/tvGuideStep1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_10sdp" android:text="@string/_1_enter_mobile_number_in_the_provided_field" android:includeFontPadding="false" android:fontFamily="@font/poppins_regular"/>
+            <TextView android:textSize="@dimen/_11sdp" android:textColor="@color/black" android:id="@+id/tvGuideStep2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_10sdp" android:text="@string/_2_click_the_whatsapp_button_if_installed_or_the_wb_whatsapp_button_if_whatsapp_business_is_installed_to_initiate_a_chat" android:includeFontPadding="false" android:fontFamily="@font/poppins_regular"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

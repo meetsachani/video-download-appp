@@ -1,0 +1,141 @@
+package o;
+
+import android.app.ActionBar;
+import android.app.Activity;
+import android.app.Dialog;
+import android.content.DialogInterface;
+import android.os.Build;
+import android.view.KeyEvent;
+import android.view.View;
+import android.view.Window;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
+/* renamed from: o.rX0  reason: case insensitive filesystem */
+/* loaded from: classes.dex */
+public class C9271rX0 {
+    public static boolean a = false;
+    public static Method b = null;
+    public static boolean c = false;
+    public static Field d;
+
+    /* renamed from: o.rX0$a */
+    /* loaded from: classes.dex */
+    public interface a {
+        boolean I(KeyEvent keyEvent);
+    }
+
+    public static boolean a(ActionBar actionBar, KeyEvent keyEvent) {
+        if (!a) {
+            try {
+                b = actionBar.getClass().getMethod("onMenuKeyEvent", KeyEvent.class);
+            } catch (NoSuchMethodException unused) {
+            }
+            a = true;
+        }
+        Method method = b;
+        if (method != null) {
+            try {
+                Object invoke = method.invoke(actionBar, keyEvent);
+                if (invoke == null) {
+                    return false;
+                }
+                return ((Boolean) invoke).booleanValue();
+            } catch (IllegalAccessException | InvocationTargetException unused2) {
+            }
+        }
+        return false;
+    }
+
+    public static boolean b(Activity activity, KeyEvent keyEvent) {
+        KeyEvent.DispatcherState dispatcherState;
+        activity.onUserInteraction();
+        Window window = activity.getWindow();
+        if (window.hasFeature(8)) {
+            ActionBar actionBar = activity.getActionBar();
+            if (keyEvent.getKeyCode() == 82 && actionBar != null && a(actionBar, keyEvent)) {
+                return true;
+            }
+        }
+        if (window.superDispatchKeyEvent(keyEvent)) {
+            return true;
+        }
+        View decorView = window.getDecorView();
+        if (C6516gH2.A(decorView, keyEvent)) {
+            return true;
+        }
+        if (decorView != null) {
+            dispatcherState = decorView.getKeyDispatcherState();
+        } else {
+            dispatcherState = null;
+        }
+        return keyEvent.dispatch(activity, dispatcherState, activity);
+    }
+
+    public static boolean c(Dialog dialog, KeyEvent keyEvent) {
+        KeyEvent.DispatcherState dispatcherState;
+        DialogInterface.OnKeyListener f = f(dialog);
+        if (f != null && f.onKey(dialog, keyEvent.getKeyCode(), keyEvent)) {
+            return true;
+        }
+        Window window = dialog.getWindow();
+        if (window.superDispatchKeyEvent(keyEvent)) {
+            return true;
+        }
+        View decorView = window.getDecorView();
+        if (C6516gH2.A(decorView, keyEvent)) {
+            return true;
+        }
+        if (decorView != null) {
+            dispatcherState = decorView.getKeyDispatcherState();
+        } else {
+            dispatcherState = null;
+        }
+        return keyEvent.dispatch(dialog, dispatcherState, dialog);
+    }
+
+    public static boolean d(View view, KeyEvent keyEvent) {
+        return C6516gH2.B(view, keyEvent);
+    }
+
+    public static boolean e(a aVar, View view, Window.Callback callback, KeyEvent keyEvent) {
+        if (aVar == null) {
+            return false;
+        }
+        if (Build.VERSION.SDK_INT >= 28) {
+            return aVar.I(keyEvent);
+        }
+        if (callback instanceof Activity) {
+            return b((Activity) callback, keyEvent);
+        }
+        if (callback instanceof Dialog) {
+            return c((Dialog) callback, keyEvent);
+        }
+        if ((view == null || !C6516gH2.A(view, keyEvent)) && !aVar.I(keyEvent)) {
+            return false;
+        }
+        return true;
+    }
+
+    public static DialogInterface.OnKeyListener f(Dialog dialog) {
+        if (!c) {
+            try {
+                Field declaredField = Dialog.class.getDeclaredField("mOnKeyListener");
+                d = declaredField;
+                declaredField.setAccessible(true);
+            } catch (NoSuchFieldException unused) {
+            }
+            c = true;
+        }
+        Field field = d;
+        if (field != null) {
+            try {
+                return (DialogInterface.OnKeyListener) field.get(dialog);
+            } catch (IllegalAccessException unused2) {
+                return null;
+            }
+        }
+        return null;
+    }
+}

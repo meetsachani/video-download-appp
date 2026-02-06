@@ -1,0 +1,18 @@
+package com.google.android.gms.internal.consent_sdk;
+
+import android.os.Handler;
+import android.os.Looper;
+import java.util.concurrent.Executor;
+
+/* loaded from: classes3.dex */
+public final class zzcs {
+    public static final Handler a = new Handler(Looper.getMainLooper());
+    public static final Executor b = new zzcr("Google consent worker");
+
+    public static void a() {
+        if (Looper.myLooper() == Looper.getMainLooper()) {
+            return;
+        }
+        throw new IllegalStateException("Method must be call on main thread.");
+    }
+}

@@ -1,0 +1,60 @@
+package com.google.android.gms.measurement.internal;
+
+import com.google.android.gms.common.internal.Preconditions;
+
+/* loaded from: classes3.dex */
+final class zzbc {
+    public final String a;
+    public final String b;
+    public final long c;
+    public final long d;
+    public final long e;
+    public final long f;
+    public final long g;
+    public final Long h;
+    public final Long i;
+    public final Long j;
+    public final Boolean k;
+
+    public zzbc(String str, String str2, long j, long j2, long j3, long j4, Long l, Long l2, Long l3, Boolean bool) {
+        this(str, str2, 0L, 0L, 0L, j3, 0L, null, null, null, null);
+    }
+
+    public final zzbc a(long j) {
+        return new zzbc(this.a, this.b, this.c, this.d, this.e, j, this.g, this.h, this.i, this.j, this.k);
+    }
+
+    public final zzbc b(long j, long j2) {
+        return new zzbc(this.a, this.b, this.c, this.d, this.e, this.f, j, Long.valueOf(j2), this.i, this.j, this.k);
+    }
+
+    public final zzbc c(Long l, Long l2, Boolean bool) {
+        Boolean bool2;
+        if (bool != null && !bool.booleanValue()) {
+            bool2 = null;
+        } else {
+            bool2 = bool;
+        }
+        return new zzbc(this.a, this.b, this.c, this.d, this.e, this.f, this.g, this.h, l, l2, bool2);
+    }
+
+    public zzbc(String str, String str2, long j, long j2, long j3, long j4, long j5, Long l, Long l2, Long l3, Boolean bool) {
+        Preconditions.l(str);
+        Preconditions.l(str2);
+        Preconditions.a(j >= 0);
+        Preconditions.a(j2 >= 0);
+        Preconditions.a(j3 >= 0);
+        Preconditions.a(j5 >= 0);
+        this.a = str;
+        this.b = str2;
+        this.c = j;
+        this.d = j2;
+        this.e = j3;
+        this.f = j4;
+        this.g = j5;
+        this.h = l;
+        this.i = l2;
+        this.j = l3;
+        this.k = bool;
+    }
+}

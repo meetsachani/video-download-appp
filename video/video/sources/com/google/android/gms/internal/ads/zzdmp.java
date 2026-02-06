@@ -1,0 +1,23 @@
+package com.google.android.gms.internal.ads;
+
+import java.util.concurrent.Executor;
+
+/* loaded from: classes2.dex */
+public final class zzdmp implements zzhfv {
+    public final zzhge a;
+    public final zzhge b;
+    public final zzhge c;
+    public final zzhge d;
+
+    public zzdmp(zzhge zzhgeVar, zzhge zzhgeVar2, zzhge zzhgeVar3, zzhge zzhgeVar4) {
+        this.a = zzhgeVar;
+        this.b = zzhgeVar2;
+        this.c = zzhgeVar3;
+        this.d = zzhgeVar4;
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzhgk, com.google.android.gms.internal.ads.zzhgj
+    public final /* bridge */ /* synthetic */ Object b() {
+        return new zzdmn((Executor) this.a.b(), (zzcnu) this.b.b(), (zzdds) this.c.b(), (zzcmn) this.d.b());
+    }
+}

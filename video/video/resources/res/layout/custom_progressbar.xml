@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.tuyenmonkey.mkloader.MKLoader android:visibility="visible" android:layout_width="@dimen/_35sdp" android:layout_height="@dimen/_35sdp" android:layout_centerInParent="true" app:mk_color="@color/white" app:mk_type="TwinFishesSpinner"/>
+</LinearLayout>

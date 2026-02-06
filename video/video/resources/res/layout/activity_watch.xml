@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="horizontal" android:padding="@dimen/_5sdp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/ic_back" android:padding="@dimen/_8sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back"/>
+        <TextView android:textSize="@dimen/_13sdp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:id="@+id/tvTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Watch Shorts" android:includeFontPadding="false" android:layout_centerVertical="true" android:fontFamily="@font/poppins_medium"/>
+    </RelativeLayout>
+    <com.google.android.material.tabs.TabLayout android:id="@+id/tabLayout" android:layout_width="match_parent" android:layout_height="wrap_content" app:tabIndicator="@drawable/tab_indicator" app:tabIndicatorColor="@color/app_color" app:tabIndicatorFullWidth="false" app:tabIndicatorGravity="bottom" app:tabIndicatorHeight="@dimen/_3sdp" app:tabMode="scrollable" app:tabTextAppearance="@style/TabTextStyle" app:tabTextColor="@color/black"/>
+    <include layout="@layout/layout_native_ads_cutom_banner"/>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@+id/viewPager" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

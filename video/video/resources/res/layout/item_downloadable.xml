@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/root_downloadable" android:background="@drawable/card_bg_select" android:padding="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="6dp">
+    <TextView android:textColor="@color/dark" android:gravity="center_vertical" android:id="@+id/qualityType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="HD" android:drawablePadding="16dp" android:drawableStart="@drawable/video_player__2__8" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/TextAppearance.Material3.TitleMedium"/>
+    <ImageView android:id="@+id/imgRadio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_uncheck_n" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

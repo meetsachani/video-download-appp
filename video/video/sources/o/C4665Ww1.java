@@ -1,0 +1,11 @@
+package o;
+
+import android.media.MediaParser$InputReader;
+
+/* renamed from: o.Ww1  reason: case insensitive filesystem */
+/* loaded from: classes2.dex */
+public final /* synthetic */ class C4665Ww1 {
+    public static /* bridge */ /* synthetic */ MediaParser$InputReader a(Object obj) {
+        return (MediaParser$InputReader) obj;
+    }
+}
